@@ -1,0 +1,246 @@
+body{
+  background-color: #ffe0f7;
+}
+.modal1 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(229, 24, 236, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal1-content {
+  background-color:#f09ae9;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ffc1fa;
+  width: 95%;
+  float: left;
+}
+
+/* The Close Button */
+.close1 {
+  color: #ffc1fa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+  color: #000;
+  text-decoration: ;
+  cursor: pointer;
+}
+
+.modal2 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(229, 24, 236, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal2-content {
+  background-color: #f09ae9;
+  margin: auto;
+   border: 1px solid #888;
+  width: 96%;
+}
+
+/* The Close Button */
+.close2 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close2:hover,
+.close2:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal3 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */ 
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(229, 24, 236, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal3-content {
+  background-color: #f09ae9;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 96%;
+}
+
+/* The Close Button */
+.close3 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close3:hover,
+.close3:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal4 {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(229, 24, 236, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal4-content {
+  background-color: #f09ae9;
+  margin: auto;
+  
+  border: 1px solid #888;
+  width: 98%;
+}
+
+/* The Close Button */
+.close4 {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close4:hover,
+.close4:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
+@media (max-width:320px){
+  img{
+    width: 300px;
+  height:30vh;
+}
+p{
+  width: 290px;
+}
+}
+@media (min-width:321px) and (max-width:375px){
+  img{
+    width: 350px;
+  height:47vh;
+}
+p{
+  font-size:20px;
+  width:90%;
+}
+}
+@media (min-width:376px) and (max-width:425px){
+  img{
+  width:395px;
+  height:47vh;
+}
+p{
+  font-size:18px;
+  width: 75vw;
+}
+.modal2, .modal3, .modal4 {
+   padding-top: 5px;
+}
+}
+@media (min-width:426px) and (max-width:768px){
+  img{
+  width:800px;
+  height:80vh;
+}
+p{
+  font-size: 35px;
+  width: 800px;
+}
+}
+@media (min-width:769px) and (max-width:1024px){
+  img{
+  width:486px;
+  height:47vh;
+}
+p{
+  font-size: 15px;
+  width:38%;
+  font-display:inherit;
+  float: right;
+}
+.modal1, .modal2, .modal3, .modal4 {
+   padding-top: 100px;
+}
+}
+@media (min-width:1025px) and (max-width:1439px){
+  img{
+  width:395px;
+  height:47vh;
+}
+.modal1, .modal2, .modal3, .modal4 {
+   padding: 120px;
+}
+}
+@media (min-width:1440px) and (max-width:2559px){
+  img{
+  width:47.7vw;
+  height:49vh;
+}
+ p{
+  font-size: 20px;
+  width:36%;
+  float: right;
+}
+.modal1, .modal2, .modal3, .modal4 {
+   padding-top: 100px;
+}
+}
+@media (min-width:2560px){
+  img{
+  width:48.9vw;
+  height:49vh;
+}
+ p{
+  font-size: 34px;
+  width:39%;
+  font-display:inherit;
+  float: right;
+}
+.modal1, .modal2, .modal3, .modal4 {
+   padding: 150px 50px 50px 50px;
+}
+}
+
+ 
